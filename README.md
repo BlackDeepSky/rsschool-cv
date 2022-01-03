@@ -1,1 +1,1 @@
-https://blackdeepsky.github.io/rsschool-cv/cv
+https://blackdeepsky.github.io/rsschool-cv/
