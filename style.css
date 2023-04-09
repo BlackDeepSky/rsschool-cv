@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
 body {
   background: #1a202f;
 }
@@ -61,6 +63,7 @@ a {
 .main-content__description {
   font-size: 1.8rem;
   color: whitesmoke;
+  font-family: 'Klee One', cursive;
 }
 .main-content__buttons{
   display: flex;
@@ -80,7 +83,8 @@ a {
 
 
 
-/* //mobile first */
+/* Adaptive */
+
 @media screen and (max-width:768px) {
   .main-container{
     flex-wrap: wrap;
@@ -91,6 +95,41 @@ a {
   }
   .main-content__subtitle {
     font-size: 3rem;
+  }
+  .main-content__description {
+    font-size: 1.3rem;
+    color: whitesmoke;
+  }
+  .main-content__buttons__active {
+    border: 2px solid whitesmoke;
+    border-radius: 35px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+  }
+  .main-content__buttons{
+    gap: 10px;
+  }
+}
+@media screen and (max-width:410px) {
+  .navigation {
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    padding: 0;
+  }
+  .main-content{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+  }
+  .main-img {
+    width: 200px;
+  }
+  .main-content__title {
+    font-size: 1.3rem;
+  }
+  .main-content__subtitle {
+    font-size: 2rem;
   }
   .main-content__description {
     font-size: 1.3rem;
